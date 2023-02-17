@@ -265,9 +265,6 @@ header{
 .cont_contact:hover{
     animation: 1s bang;
 }
-.btn_certificado img{
-    animation: 2s bang;
-}
  @keyframes bang{
     from{
         transform: translateY(-10px);

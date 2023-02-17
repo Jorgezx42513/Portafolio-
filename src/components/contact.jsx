@@ -30,7 +30,7 @@ export function Contact() {
             <img src={wt} alt="wt" />
         </div>
         <div className="cont_contact">
-          <a href="" target="_blank">
+          <a href="https://www.linkedin.com/in/jorge-benavibes-95720b207" target="_blank">
               <img src={likedin} alt="in" />
           </a>
         </div>

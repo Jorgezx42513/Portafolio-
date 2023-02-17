@@ -8,11 +8,12 @@ import programacion from '../certificados/sistemas informaticos.pdf'
 import download from '../img/download.png'
 export function Estudies() {
   $(document).ready(() => {
-      $('.btn_certificado').on('click', (e)=>{
+      $('.btn_certificado').hover((e)=>{
         $(e.currentTarget)
         .children("span").html(" ")
         $(e.currentTarget)
-        .children("img"). attr("src", download) 
+        .children("img"). attr("src", download)
+        .css("animation", "0.5s bang")       
       })
   })
   return (
