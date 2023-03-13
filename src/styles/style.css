@@ -47,6 +47,12 @@ header{
 .header_cont h1{
     font-size: 40pt;
 }
+#img_logo_personal{
+    margin: auto;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 120px;
+}
 #proyect_sect{
     display: flex;
     flex-direction: column;

@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/style.css'
 import '../styles/stars.css'
 import cv from "../certificados/cv.pdf"
+import foto from "../img/foto.png"
 
 export function Header() {
   return (
@@ -26,7 +27,7 @@ web development.
           </a>
         </div>
         <div className='header_cont'>
-          <img src="" alt="foto personal" />
+          <img id='img_logo_personal' src={foto} alt="foto personal" />
         </div>
       </div>
     </header>
